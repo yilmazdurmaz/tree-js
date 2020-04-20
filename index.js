@@ -54,8 +54,10 @@ let t = new Tree(3);
 console.log(t)
 
 let tree=new Tree();
-tree.AddValue(5);
-tree.AddValue(3);
-tree.AddValue(6);
-tree.AddValue(5);
-tree.AddValue(7);
+tree.addValue(5);
+tree.addValue(3);
+tree.addValue(6);
+tree.addValue(5);
+tree.addValue(7);
+
+console.log(tree)
