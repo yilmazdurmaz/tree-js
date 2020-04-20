@@ -1,7 +1,5 @@
 document.body.innerHTML="Hello, please open Developer Tools , possibly F12" 
 
-let n= new Node(5);
-console.log(n);
 class Tree{
   root=null;
   constructor(val){
@@ -32,3 +30,7 @@ class Node{
   }
 
 }
+
+
+let n= new Node(5);
+console.log(n);
