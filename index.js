@@ -9,7 +9,7 @@ class Tree{
   }
   addNode(node){
     if(!this.root) {
-      console.log("adding node);
+      console.log("adding node");
       this.root=node;
       return;
     }
@@ -24,9 +24,9 @@ class Tree{
 }
 
 class Node{
-  let left=null;
-  let right=null;
-  let value;
+  left=null;
+  right=null;
+  value;
   constructor(value){
     this.value=value;
   }
