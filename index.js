@@ -5,7 +5,7 @@ class Tree{
   constructor(value){
     if(value) {
       console.log("new tree with initial value");
-      addValue(value)
+      this.addValue(value)
     }else{
       console.log("empty tree started")
     }
