@@ -33,7 +33,7 @@ class Node{
   addNode(node){
     //check left and add
     if(node.value< this.value){
-      console.log(""adding left");
+      console.log("adding left");
       if(!this.left){
         this.left=node;
       }else{this.left.addNode(node)}
